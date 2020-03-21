@@ -20,8 +20,8 @@ a:hover {
   text-decoration: underline;
 }
 .title {
-  width: 200px;
-  height: 50px;
+  width: 20vw;
+  height: 10vh;
   justify-self: center;
   margin-left: -60px;
 }
@@ -30,7 +30,6 @@ a:hover {
   grid-template-columns: .5fr .5fr 2fr 8fr 1.5fr 1fr;
   align-items: center;
   border-bottom: 1px solid black;
-  height: 9vh;
   grid-gap: 5px;
 }
 .headerLink {
@@ -67,10 +66,15 @@ a:hover {
 .article {
   display: grid;
   max-width: 1000px;
-  margin: 100px auto;
+  margin: 20px auto;
   grid-template-columns: 12fr 3fr;
 }
-
+.articleHeader{
+  max-width: 40vw;
+  justify-self: center;
+  font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
+  font-size: 6vh;
+}
 .article > * {
   grid-column: 1/span 1;
 }
